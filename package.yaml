@@ -1,0 +1,20 @@
+name: loquacious
+version: 0.1.0.0
+synopsis: Overridable Pretty Printer Typeclass
+maintainer: Imuli <i@imu.li>
+github: imuli/loquacious
+license: PublicDomain
+license-file: UNLICENSE
+category: Pretty Printer
+description: Pretty Printer Typeclass for verbose, overridable, messages.
+
+ghc-options: -Wall
+
+dependencies:
+  - array >= 0.1 && < 0.6
+  - base >= 4.11 && < 5.0
+  - prettyprinter >= 1.2 && < 2.0
+  - text >= 1.0 && < 2.0
+
+library:
+  source-dirs: src

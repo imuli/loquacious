@@ -1,0 +1,12 @@
+result
+result-*
+dist
+dist-newstyle
+*~
+*.swp
+*.swo
+*.dyn_hi
+*.dyn_o
+*.ho
+*.hi
+*.o
